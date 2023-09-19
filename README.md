@@ -11,7 +11,7 @@ com seu projeto criado digite o comando **ls** e valide se foi criado a pasta co
 entre nesta pasta **cd nomedoprojeto** </br>
 rode o comando **php artisan migrate**</br>
 oque pode dar errado no migrate ? </br>
-<h5>acessando o postgres por terminal de comando do docker:</h5>
+<h4>acessando o postgres por terminal de comando do docker:</h4>
 1 : Arquivo env do laravel mal configurado : veja este exemplo </br>
 <img src="https://github.com/waltereidi/Docker-tutorial-laravel_postgresql/assets/6370415/778dc1e8-fcc7-4859-9730-cf71384eac7f"></br>
 note que o DB_HOST possui o mesmo nome do arquivo de configuração </br>
