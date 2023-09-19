@@ -1,0 +1,19 @@
+services:
+  laravel-docker:
+    container_name: laravel-docker-postgresql
+    build: .
+    volumes:
+      - ./laravel-postgresql:/var/www/html
+    ports:
+      - "8000:8000"
+      - "8099:80"
+
+  pgsql:
+    image: postgres:14
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: bibliotecaonline
+    ports:
+      - "5499:5432"
