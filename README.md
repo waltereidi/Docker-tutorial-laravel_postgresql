@@ -1,7 +1,7 @@
 <h1> Tutorial Docker windows para Laravel com PostgreSQL </h1>
 <strong>utilize o visual studio code e seu terminal para rodar os comandos</strong></br>
 <p>Copie apenas o dockerfile e docker-compose.yml deste repositorio </br> 
-rode no terminal o comando <strong>docker-compose build</p>strong> </br>
+rode no terminal o comando <strong>docker-compose build</p></strong> </br>
 em seguida <strong>docker-compose up</strong></br>
 verifique se no seu docker o container foi criado e está rodando com os 2 serviços.</br>
 agora entre no terminal de comandos da maquina virtual com o comando </br>
